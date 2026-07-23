@@ -1,0 +1,24 @@
+# Aris Machina
+
+> Aris Machina builds AI-powered industrial software for advanced manufacturing — "industrial superintelligence" that unifies design, production, and operations through AI agents and a shared semantic knowledge model. Backed by Earlybird; offices in Stockholm, Bangalore, and California. No public developer API surface, OpenAPI specification, or SDKs are published at this time.
+
+## Products
+- [Protos](https://www.arismachina.com/protos): AI co-engineer for R&D teams — rapid design validation and simulation.
+- [Gemba](https://www.arismachina.com/#gemba): Shopfloor operational agents for real-time equipment diagnostics.
+- [Ontology Toolkit](https://www.arismachina.com/#ontology): Knowledge-integration layer bridging MES, ERP, and PLM data.
+
+## Company
+- [Home](https://www.arismachina.com/)
+- [Press & Blog](https://www.arismachina.com/news)
+- [Trust & Security](https://www.arismachina.com/trust)
+
+## Get started
+- [Try Protos (sign up)](https://protos.arismachina.com/signup)
+- Contact: ready@arismachina.com
+- Security: security@arismachina.com
+
+## Legal
+- [Terms of Service](https://www.arismachina.com/policies/terms-of-service)
+- [Privacy Policy](https://www.arismachina.com/policies/privacy-policy)
+- [Data Processing Agreement](https://www.arismachina.com/policies/data-processing-agreement)
+- [Sub-Processors](https://www.arismachina.com/policies/sub-processors)

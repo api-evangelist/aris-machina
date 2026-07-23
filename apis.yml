@@ -1,7 +1,30 @@
 aid: aris-machina
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aris-machina.png
 name: Aris Machina
-description: Aris Machina is a company surfaced as a portfolio company of earlybird and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aris Machina builds AI-powered industrial software for advanced manufacturing,
+  describing its mission as delivering "industrial superintelligence" that unifies
+  design, production, and operations through AI agents and a shared semantic
+  knowledge model. Its products include Protos, an AI co-engineer for R&D teams
+  that accelerates design validation and simulation; Gemba, shopfloor operational
+  agents that provide real-time equipment diagnostics; and the Ontology Toolkit, a
+  knowledge-integration layer that bridges data across MES, ERP, and PLM systems.
+  Aris Machina serves batteries, biopharma, robotics, defense, and aerospace, and
+  is backed by Earlybird. The company operates from Stockholm, Bangalore, and
+  California. This profile was surfaced as an Earlybird portfolio company and
+  enriched from public web sources; Aris Machina does not currently publish a
+  public developer API surface, OpenAPI specification, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/aris-machina/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Manufacturing
+- Industrial
+- AI Agents
+- Simulation
+- Knowledge Graph
+- Ontology
 apis: []
+common:
+- type: DomainSecurity
+  url: security/aris-machina-domain-security.yml
+- type: Website
+  url: https://www.arismachina.com/
+- type: SignUp
+  url: https://protos.arismachina.com/signup
+- type: Blog
+  url: https://www.arismachina.com/news
+- type: TermsOfService
+  url: https://www.arismachina.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.arismachina.com/policies/privacy-policy
+- type: TrustCenter
+  url: https://www.arismachina.com/trust
+- type: Compliance
+  url: https://www.arismachina.com/trust
+- type: Security
+  url: https://www.arismachina.com/trust
+- type: VulnerabilityDisclosure
+  url: security/aris-machina-vulnerability-disclosure.yml
+- type: LLMsTxt
+  url: llms/aris-machina-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

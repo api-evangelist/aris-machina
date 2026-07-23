@@ -1,0 +1,35 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.arismachina.com/trust
+probe: false
+url: https://www.arismachina.com/trust
+summary: >-
+  Aris Machina publishes a Trust & Security page describing its compliance
+  posture and that of its infrastructure provider (Google Cloud Platform).
+certifications:
+- name: GDPR
+  scope: aris-machina
+  status: compliant
+- name: SOC 2 Type I
+  scope: aris-machina
+  status: planned-2026
+infrastructure_certifications:
+- provider: Google Cloud Platform
+  certifications:
+  - ISO/IEC 27001
+  - ISO/IEC 27017
+  - ISO/IEC 27018
+  - SOC 2 Type II
+evidence:
+- source: https://www.arismachina.com/trust
+  keywords:
+  - iso 27001
+  - iso 27017
+  - iso 27018
+  - soc 2
+  - gdpr
+  - trust & security
+notes: >-
+  Page fetched via a rendering fetch; the raw (non-JS) probe returns the SPA
+  shell so the mechanical probe did not record a hit. Certifications above are
+  quoted from the rendered page.
